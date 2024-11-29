@@ -22,7 +22,7 @@ void setup() {
   }
 
   motor.linkDriver(&driver);
-  motor.controller = MotionControlType::velocity_openloop:
+  motor.controller = MotionControlType::velocity_openloop;
 
   // init motor hardware
   if(!motor.init()){
